@@ -3,10 +3,17 @@ package nirajapps;
 public class Emplyee {
 	
 	private int empid;
+	private double sal;
+	public double getSal() {
+		return sal;
+	}
+	public void setSal(double sal) {
+		this.sal = sal;
+	}
 	private String empName;
 	@Override
 	public String toString() {
-		return "Emplyee [empid=" + empid + ", empName=" + empName + "]";
+		return "Emplyee [sal=" + sal + "]";
 	}
 	public int getEmpid() {
 		return empid;
